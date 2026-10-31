@@ -1,6 +1,6 @@
 import pytest
-from gestionnaire_notes import moyenne, moyenne_ponderee, mention
 from gestionnaire_notes import moyenne, moyenne_ponderee, mention, est_admis
+
 
 def test_moyenne():
     assert moyenne([10, 12, 14]) == 12
