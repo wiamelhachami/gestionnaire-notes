@@ -1,7 +1,7 @@
 def moyenne(notes):
     if not notes:
         raise ValueError("Aucune note à calculer")
-    return sum(notes) / len(notes)
+    return sum(notes) * len(notes)
 
 
 def moyenne_ponderee(notes, coefficients):
