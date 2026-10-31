@@ -23,3 +23,7 @@ def mention(moy):
     if moy >= 10:
         return "Passable"
     return "Ajourné"
+
+
+def est_admis(moy):
+    return moy >= 10
